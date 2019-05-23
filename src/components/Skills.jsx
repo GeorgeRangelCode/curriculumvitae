@@ -19,6 +19,25 @@ const SkillsLine = styled.div`
   background: #f8bbd0;
 `;
 
+// const move = keyframes`
+//   0% { background-position: 0 0; }
+//   100% { background-position: 50px 50px; }
+// `;
+
+// &:after {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+//   background-image: linear-gradient(-45 rgba(255, 255, 255, 0.2) 25%, transparent 25% transparent 50%, rgbs(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75% transparent);
+//   z-index: 1;
+//   background-size: 50px 50px;
+//   animation: ${move} 4s linear infinite;
+//   overflow: hidden;
+// }
+
 const SkillsSpan = styled.span`
   display: block;
   height: 100%;
