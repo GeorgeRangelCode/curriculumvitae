@@ -1,17 +1,72 @@
 import React from "react";
+import styled, { ThemeProvider } from "styled-components";
+
+const SocialStyled = styled.div`
+  margin: 0 auto;
+  display: block;
+`;
+
+const SocialUl = styled.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0;
+`;
+
+const SocialLi = styled.li`
+  display: inline;
+  margin: 0 1em 0 0;
+`;
+
+const SocialAnchor = styled.a`
+  color: #212121;
+  text-decoration: none;
+  font-size: 1.2em;
+`;
+
+const SocialIcon = styled.i`
+  color: ${props => props.theme.color};
+`;
+
+const facebook = {
+  color: "#3b5998"
+};
+
+const twitter = {
+  color: "#38a1f3"
+};
+
+const linkedin = {
+  color: "#0e76a8"
+};
+
+const github = {
+  color: "#333"
+};
+
+const getColor = name => {
+  if (name == "facebook") return facebook;
+  if (name == "twitter") return twitter;
+  if (name == "linkedin") return linkedin;
+  if (name == "github") return github;
+};
 
 const Social = props => (
-  <div className="Social">
+  <SocialStyled className="Social">
     {props.social && (
-      <ul>
+      <SocialUl>
         {props.social.map((item, index) => (
-          <li key={`social-${index}`} target="_blank">
-            <a href={item.url}>{item.name}</a>
-          </li>
+          <SocialLi key={`social-${index}`} target="_blank">
+            <SocialAnchor href={item.url}>
+              {/* {item.name} */}
+              <ThemeProvider theme={getColor(item.name)}>
+                <SocialIcon className={`fab fa-${item.name}`} />
+              </ThemeProvider>
+            </SocialAnchor>
+          </SocialLi>
         ))}
-      </ul>
+      </SocialUl>
     )}
-  </div>
+  </SocialStyled>
 );
 
 export default Social;

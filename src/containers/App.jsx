@@ -25,7 +25,7 @@ const App = () => {
           address={data.address}
           social={data.social}
         />
-      </Sidebar>
+      </Sidebar>  
       <Info>
         <Education data={data.education} />
         <Experience data={data.experience} />
