@@ -1,4 +1,5 @@
 import React from "react";
+import { createGlobalStyle } from "styled-components";
 import Main from "../components/Main.jsx";
 import Sidebar from "../components/Sidebar.jsx";
 import Info from "../components/Info.jsx";
@@ -9,6 +10,15 @@ import Certificates from "../components/Certificates.jsx";
 import Skills from "../components/Skills.jsx";
 import useGetData from "../hooks/useGetData";
 
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+  }
+`;
+
 const App = () => {
   const data = useGetData();
   console.log(data);
@@ -16,6 +26,7 @@ const App = () => {
     <h1>Cargando...</h1>
   ) : (
     <Main>
+      <GlobalStyle />
       <Sidebar>
         <About
           avatar={data.avatar}
