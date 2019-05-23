@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 const api =
-  "https://raw.githubusercontent.com/GeorgeRangelCode/curriculumvitae/master/src/data/data.json";
+  "https://raw.githubusercontent.com/GeorgeRangelCode/curriculumvitae/develop/src/data/data.json";
 
 const useGetData = () => {
   const [mydata, setData] = useState([]);
