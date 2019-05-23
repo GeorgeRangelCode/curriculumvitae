@@ -29,7 +29,7 @@ const AboutH2 = styled.h2`
   font-weigth: 400;
   letter-spacing: 1.2px;
   margin: 0.5em 0 0 0;
-  color: #74153a;
+  color: #202020;
 `;
 
 const AboutProfession = styled.p`
