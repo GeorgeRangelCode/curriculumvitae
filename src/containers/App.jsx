@@ -21,7 +21,6 @@ const GlobalStyle = createGlobalStyle`
 
 const App = () => {
   const data = useGetData();
-  console.log(data);
   return data.length === 0 ? (
     <h1>Cargando...</h1>
   ) : (
@@ -29,19 +28,19 @@ const App = () => {
       <GlobalStyle />
       <Sidebar>
         <About
-          avatar={data.avatar}
-          name={data.name}
-          profession={data.profession}
-          bio={data.bio}
-          address={data.address}
-          social={data.social}
+          avatar={data[0].avatar}
+          name={data[0].name}
+          profession={data[0].profession}
+          bio={data[0].bio}
+          address={data[0].address}
+          social={data[0].social}
         />
-      </Sidebar>  
+      </Sidebar>
       <Info>
-        <Education data={data.education} />
-        <Experience data={data.experience} />
-        <Certificates data={data.certificate} />
-        <Skills data={data.skills} />
+        <Education data={data[0].education} />
+        <Experience data={data[0].experience} />
+        <Certificates data={data[0].certificate} />
+        <Skills data={data[0].skills} />
       </Info>
     </Main>
   );
