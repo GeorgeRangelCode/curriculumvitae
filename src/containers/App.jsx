@@ -9,6 +9,7 @@ import Experience from "../components/Experience.jsx";
 import Certificates from "../components/Certificates.jsx";
 import Skills from "../components/Skills.jsx";
 import useGetData from "../hooks/useGetData";
+import Loader from "../components/Loader.jsx";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -22,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
 const App = () => {
   const data = useGetData();
   return data.length === 0 ? (
-    <h1>Cargando...</h1>
+    <Loader />
   ) : (
     <Main>
       <GlobalStyle />

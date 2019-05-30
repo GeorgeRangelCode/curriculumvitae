@@ -1,5 +1,5 @@
 import React from "react";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const SkillsContainer = styled.div`
   display: grid;
@@ -46,7 +46,8 @@ const SkillsSpan = styled.span`
   background-color: #74153a;
   overflow: hidden;
   position: relative;
-  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
 `;
 
 const Skills = props => (

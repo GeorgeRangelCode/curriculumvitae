@@ -1,88 +1,97 @@
 {
-  "address": "Chía, Colombia.",
-  "avatar": "https://pbs.twimg.com/profile_images/848195619156086785/00fw0Hke_400x400.jpg",
-  "bio": "",
-  "certificate": [{
-      "date": "Enero 2019",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "institution": "Platzi",
-      "name": "FrontEnd Developer"
-    },
+  "data": [
     {
-      "date": "Enero 2019",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "institution": "Platzi",
-      "name": "Backend Developer"
-    }
-  ],
-  "education": [{
-      "degree": "Frontend, Backend",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      "endDate": "Actualmente",
-      "institution": "Platzi",
-      "startDate": "Enero 2018"
-    },
-    {
-      "degree": "Ingeniero de Sistemas",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "endDate": "Diciembre 2016",
-      "institution": "UDEC",
-      "startDate": "Enero 2011"
-    }
-  ],
-  "experience": [{
-      "company": "Casa Toro",
-      "endDate": "Actualmente",
-      "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "jobTitle": "Web Developer",
-      "startDate": "Febrero 2019"
-    },
-    {
-      "company": "Lanssens Consultores",
-      "endDate": "Octubre 2018",
-      "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "jobTitle": "DBA SQL",
-      "startDate": "Febrero 2019"
-    }
-  ],
-  "name": "Jorge Rangel",
-  "profession": "Frontend Developer",
-  "skills": [{
-      "name": "HTML5",
-      "percentage": "85%"
-    },
-    {
-      "name": "CSS",
-      "percentage": "65%"
-    },
-    {
-      "name": "JavaScript",
-      "percentage": "75%"
-    },
-    {
-      "name": "React",
-      "percentage": "60%"
-    },
-    {
-      "name": "SQL",
-      "percentage": "80%"
-    }
-  ],
-  "social": [{
-      "name": "facebook",
-      "url": "https://facebook.com/"
-    },
-    {
-      "name": "twitter",
-      "url": "https://twitter.com/"
-    },
-    {
-      "name": "github",
-      "url": "https://github.com/"
-    },
-    {
-      "name": "linkedin",
-      "url": "https://www.linkedin.com/"
+      "address": "Chía, Colombia.",
+      "avatar": "https://pbs.twimg.com/profile_images/848195619156086785/00fw0Hke_400x400.jpg",
+      "bio": "",
+      "certificate": [
+        {
+          "date": "Enero 2019",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "institution": "Platzi",
+          "name": "FrontEnd Developer"
+        },
+        {
+          "date": "Enero 2019",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "institution": "Platzi",
+          "name": "Backend Developer"
+        }
+      ],
+      "education": [
+        {
+          "degree": "Frontend, Backend",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+          "endDate": "Actualmente",
+          "institution": "Platzi",
+          "startDate": "Enero 2018"
+        },
+        {
+          "degree": "Ingeniero de Sistemas",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "endDate": "Diciembre 2016",
+          "institution": "UDEC",
+          "startDate": "Enero 2011"
+        }
+      ],
+      "experience": [
+        {
+          "company": "Casa Toro",
+          "endDate": "Actualmente",
+          "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "jobTitle": "Web Developer",
+          "startDate": "Febrero 2019"
+        },
+        {
+          "company": "Lanssens Consultores",
+          "endDate": "Octubre 2018",
+          "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "jobTitle": "DBA SQL",
+          "startDate": "Febrero 2019"
+        }
+      ],
+      "name": "Jorge Rangel",
+      "profession": "Frontend Developer",
+      "skills": [
+        {
+          "name": "HTML5",
+          "percentage": "85%"
+        },
+        {
+          "name": "CSS",
+          "percentage": "65%"
+        },
+        {
+          "name": "JavaScript",
+          "percentage": "75%"
+        },
+        {
+          "name": "React",
+          "percentage": "60%"
+        },
+        {
+          "name": "SQL",
+          "percentage": "80%"
+        }
+      ],
+      "social": [
+        {
+          "name": "facebook",
+          "url": "https://facebook.com/"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/"
+        }
+      ]
     }
   ]
 }
